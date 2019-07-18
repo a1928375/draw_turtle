@@ -1,0 +1,35 @@
+import turtle
+
+def draw_art():
+    window=turtle.Screen()
+    window.bgcolor("red")
+
+    brad=turtle.Turtle()
+    brad.shape("classic")
+    brad.color("blue")
+    brad.speed(5)
+    brad.left(90)
+    brad.forward(200)
+    brad.right(180)
+    brad.forward(100)
+    brad.left(135)
+    brad.forward(141)
+    brad.right(180)
+    brad.forward(141)
+    brad.left(90)
+    brad.forward(141)
+    brad.color("red")
+    brad.left(45)
+    brad.forward(50)
+    brad.color("blue")
+    brad.forward(100)
+    brad.right(180)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(200)
+    brad.right(90)
+    brad.forward(100)
+
+    window.exitonclick()
+
+draw_art()
